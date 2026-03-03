@@ -8,25 +8,6 @@ It runs stateless EC2 instances behind an Auto Scaling Group, serves a simple **
 
 This is a Proof of Concept environment focused on automated rebuild capability rather than a full production-grade system.
 
----
-
-# Demo
-
-## Watch the Full End-to-End Rebuild
-
-[![Phoenix Demo](./static/phoenix_thumbnail.png)](./static/phoenix_demo.mp4)
-
-The demo shows:
-
-- Full automated infrastructure provisioning
-- Golden AMI creation
-- ALB + ASG deployment
-- Lambda-based internal validation
-- Auto-healing behavior after instance deletion
-- Complete infrastructure destroy
-
----
-
 # Table of Contents
 
 1. [Architecture Overview](#1-architecture-overview)  
